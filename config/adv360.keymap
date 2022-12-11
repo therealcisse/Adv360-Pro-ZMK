@@ -35,7 +35,13 @@
 };
 
 &lt {
-    quick_tap_ms = <200>;
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+};
+
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
 };
 
 / {
@@ -52,6 +58,35 @@
         bindings = <&kp>, <&kp>;
     };
   };
+  
+# combos {
+#   compatible = "zmk,combos";
+# 
+#   combo_esc {
+#     timeout-ms = <50>;
+#     key-positions = <0 1>;
+#     bindings = <&kp ESC>;
+#     layers = <WNDOWS MACOSX>;
+#   };
+# 
+#   combo_ctgrv {
+#     timeout-ms = <50>;
+#     key-positions = <0 1 2>;
+#     bindings = <&kp LC(GRAVE)>;
+#     layers = <WNDOWS MACOSX>;
+#   };
+# 
+#   combo_capsword {
+#     timeout-ms = <50>;
+#     key-positions = <12 23>;
+#     bindings = <&caps_word>;
+#     layers = <WNDOWS MACOSX>;
+#   };
+# };
+# 
+# conditional_layers {
+#   compatible = "zmk,conditional-layers";
+# }
 
     keymap {
         compatible = "zmk,keymap";
