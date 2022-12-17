@@ -99,7 +99,7 @@
     compatible = "zmk,combos";
 
     combo_esc {
-      timeout-ms = <50>;
+      timeout-ms = <75>;
       key-positions = <28 44>;
       bindings = <&kp ESC>;
     };
