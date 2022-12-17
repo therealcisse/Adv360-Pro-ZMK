@@ -102,13 +102,9 @@
       timeout-ms = <50>;
       key-positions = <28 44>;
       bindings = <&kp ESC>;
-      layers = <0>;
+      layers = <0 1>;
     };
 
-  };
-
-  conditional_layers {
-    compatible = "zmk,conditional-layers";
   };
 
     keymap {
