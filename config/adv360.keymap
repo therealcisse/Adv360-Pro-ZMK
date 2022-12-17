@@ -114,7 +114,7 @@
             bindings = <
  &kp ESC     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5                      &tog 1      &mo 3     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T                       &none      &none      &kp Y      &kp U      &kp I      &kp O      &kp P   &kp BSLH
-   &sk LCTRL    &kp A     &kp S     &kp D      &lt 1 F     &kp G                       &none  &sk LCTRL  &kp LALT                         &kp RALT  &kp ESC      &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+   &sk LCTRL    &kp A     &kp S     &kp D      &lt 1 F     &kp G                       &none  &sk LCTRL  &kp LALT                         &kp RALT  &kp ESC      &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &lt RCTRL SQT
  &sk LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B                       &none      &none   &kp HYPER      &none      &none  &kp LC(DELETE)      &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &sk RSHFT
      &kp EQUAL  &kp GRAVE  &caps_word  &kp LEFT  &kp RIGHT  &kp BSPC            &sk LGUI    &kp HYP(N5)  &kp DELETE  &lt 2 ENTER  &kp SPACE     &kp UP   &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
             >;
