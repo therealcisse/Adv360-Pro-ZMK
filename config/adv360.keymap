@@ -60,7 +60,7 @@
     };
   };
 
-  /*combos {
+  combos {
     compatible = "zmk,combos";
 
     combo_esc {
@@ -105,7 +105,7 @@
       bindings = <&kp RGUI>;
     };
 
-  };*/
+  };
 
     keymap {
         compatible = "zmk,keymap";
