@@ -139,19 +139,19 @@
 
     combo_rctrl {
       timeout-ms = <25>;
-      key-positions = <37 38>;
+      key-positions = <37 41>;
       bindings = <&kp RCTRL>;
     };
 
     combo_ralt {
       timeout-ms = <25>;
-      key-positions = <37 39>;
+      key-positions = <37 42>;
       bindings = <&kp RALT>;
     };
 
     combo_rgui {
       timeout-ms = <25>;
-      key-positions = <37 40>;
+      key-positions = <37 43>;
       bindings = <&kp RGUI>;
     };
 
