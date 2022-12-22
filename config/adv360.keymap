@@ -63,81 +63,81 @@
     compatible = "zmk,combos";
 
     combo_esc {
-      timeout-ms = <25>;
-      key-positions = <28 44>;
+      timeout-ms = <35>;
+      key-positions = <29 44>;
       bindings = <&kp ESC>;
     };
 
     combo_lctrl {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <32 31>;
       bindings = <&kp LCTRL>;
     };
 
     combo_lalt {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <32 30>;
       bindings = <&kp LALT>;
     };
 
     combo_lgui {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <32 29>;
       bindings = <&kp LGUI>;
     };
 
     combo_lctrl_lalt {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <32 31 30>;
-      bindings = <&kp LCTRL &kp LALT>;
+      bindings = <&kp LCTRL>, <&kp LALT>;
     };
 
     combo_lctrl_lgui {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <32 31 29>;
-      bindings = <&kp LCTRL &kp LGUI>;
+      bindings = <&kp LCTRL>, <&kp LGUI>;
     };
 
     combo_lctrl_lalt_lgui {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <32 31 30 29>;
-      bindings = <&kp LCTRL &kp LALT &kp LGUI>;
+      bindings = <&kp LCTRL>, <&kp LALT>, <&kp LGUI>;
     };
 
     combo_rctrl {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <41 42>;
       bindings = <&kp RCTRL>;
     };
 
     combo_ralt {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <41 43>;
       bindings = <&kp RALT>;
     };
 
     combo_rgui {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <41 44>;
       bindings = <&kp RGUI>;
     };
 
     combo_rctrl_ralt {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <41 42 43>;
-      bindings = <&kp RCTRL &kp RALT>;
+      bindings = <&kp RCTRL>, <&kp RALT>;
     };
 
     combo_lctrl_lgui {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <41 42 44>;
-      bindings = <&kp RCTRL &kp RGUI>;
+      bindings = <&kp RCTRL>, <&kp RGUI>;
     };
 
     combo_lctrl_lalt_lgui {
-      timeout-ms = <25>;
+      timeout-ms = <35>;
       key-positions = <41 42 43 44>;
-      bindings = <&kp RCTRL &kp RALT &kp RGUI>;
+      bindings = <&kp RCTRL>, <&kp RALT>, <&kp RGUI>;
     };
 
   };
@@ -188,3 +188,4 @@
 
     };
 };
+
