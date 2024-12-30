@@ -5,10 +5,12 @@
 #include <dt-bindings/zmk/backlight.h>
 
 #define HYP(key) LS(LC(LA(LG(key))))
+
 #define HYPER_LEFT    LS(LC(LA(LGUI)))
-#define SUPER_LEFT    LC(LA(LGUI)))
+#define SUPER_LEFT    LC(LA(LGUI))
+
 #define HYPER_RIGHT   RS(RC(RA(RGUI)))
-#define SUPER_RIGHT   RC(RA(RGUI)))
+#define SUPER_RIGHT   RC(RA(RGUI))
 
 #define MACLOCK  LG(LC(Q))
 
