@@ -7,10 +7,10 @@
 #define HYP(key) LS(LC(LA(LG(key))))
 
 #define HYPER_LEFT    LC(LALT)
-#define SUPER_LEFT    LA
+#define SUPER_LEFT    LALT
 
 #define HYPER_RIGHT   RC(RALT)
-#define SUPER_RIGHT   RA
+#define SUPER_RIGHT   RALT
 
 #define MACLOCK  LG(LC(Q))
 
